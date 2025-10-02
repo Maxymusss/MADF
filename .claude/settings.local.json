@@ -132,7 +132,9 @@
       "Bash(else echo \"src/agents does not exist\")",
       "Bash(fi)",
       "Bash(git rm:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(while read dir)",
+      "Bash(do git mv \"$dir\" archive/epic-1-experimental/temp-scripts/)"
     ],
     "deny": [],
     "ask": []
