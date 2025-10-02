@@ -1,0 +1,28 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-8.3.4, pluggy-1.5.0 -- D:\Programs\anaconda3\python.exe
+cachedir: .pytest_cache
+rootdir: d:\dev\MADF
+configfile: pytest.ini
+plugins: anyio-4.7.0, langsmith-0.4.31, asyncio-1.2.0, cov-7.0.0, mock-3.15.1
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=function, asyncio_default_test_loop_scope=function
+collecting ... collected 17 items
+
+tests/test_story_1_4_postgres_analysis.py::TestPostgresManager::test_initialize_creates_schema PASSED [  5%]
+tests/test_story_1_4_postgres_analysis.py::TestPostgresManager::test_import_jsonl_file PASSED [ 11%]
+tests/test_story_1_4_postgres_analysis.py::TestPostgresManager::test_get_session_stats PASSED [ 17%]
+tests/test_story_1_4_postgres_analysis.py::TestPostgresManager::test_get_error_patterns PASSED [ 23%]
+tests/test_story_1_4_postgres_analysis.py::TestLogAnalyzer::test_get_session_summary_token_limit PASSED [ 29%]
+tests/test_story_1_4_postgres_analysis.py::TestLogAnalyzer::test_get_top_errors_format PASSED [ 35%]
+tests/test_story_1_4_postgres_analysis.py::TestLogAnalyzer::test_get_agent_performance_structure PASSED [ 41%]
+tests/test_story_1_4_postgres_analysis.py::TestLogAnalyzer::test_compare_stories_empty_second_story PASSED [ 47%]
+tests/test_story_1_4_postgres_analysis.py::TestPatternExtractor::test_find_error_patterns_min_occurrences PASSED [ 52%]
+tests/test_story_1_4_postgres_analysis.py::TestPatternExtractor::test_find_slow_operations_threshold PASSED [ 58%]
+tests/test_story_1_4_postgres_analysis.py::TestPatternExtractor::test_find_success_patterns_confidence PASSED [ 64%]
+tests/test_story_1_4_postgres_analysis.py::TestPatternExtractor::test_find_agent_handoff_patterns PASSED [ 70%]
+tests/test_story_1_4_postgres_analysis.py::TestPatternExtractor::test_extract_training_examples_success PASSED [ 76%]
+tests/test_story_1_4_postgres_analysis.py::TestPatternExtractor::test_extract_training_examples_failure PASSED [ 82%]
+tests/test_story_1_4_postgres_analysis.py::TestPatternExtractor::test_generate_pattern_report_structure PASSED [ 88%]
+tests/test_story_1_4_postgres_analysis.py::TestIntegrationScenarios::test_full_analysis_pipeline PASSED [ 94%]
+tests/test_story_1_4_postgres_analysis.py::TestIntegrationScenarios::test_multiple_session_comparison PASSED [100%]
+
+============================= 17 passed in 0.37s ==============================

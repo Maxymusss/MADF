@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "serena": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "serena",
+        "run",
+        "serena-mcp-server",
+        "--project",
+        "D:\\dev\\MADF"
+      ]
+    }
+  }
+}

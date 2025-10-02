@@ -1,0 +1,18 @@
+{
+  "comparison": "file_glob_performance",
+  "tools": {
+    "python_glob": {
+      "tool": "python_glob",
+      "category": "baseline",
+      "total_runs": 10,
+      "success_rate": 1.0,
+      "latency_p50": 314.6245999960229,
+      "latency_p90": 349.12480000639334,
+      "latency_p99": 349.12480000639334,
+      "latency_mean": 320.1758000024711,
+      "latency_min": 308.78219999431167,
+      "latency_max": 349.12480000639334
+    }
+  },
+  "winner": "python_glob"
+}

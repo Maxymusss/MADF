@@ -1,0 +1,82 @@
+MCP Server Calibration Report: obsidian
+Generated: 2025-09-30T14:52:37.375Z
+======================================================================
+
+Tool: list_files_in_dir
+Params: {"path":"D:/dev/MADF"}
+Best Strategy: naturalExplicit (715ms)
+
+All Results:
+  ✅ imperative              726ms
+  ✅ naturalExplicit         715ms
+  ✅ stepByStep              779ms
+  ✅ directWithSchema        753ms
+  ✅ explicitTypes           847ms
+
+----------------------------------------------------------------------
+
+Tool: get_file_contents
+Params: {"path":"D:/dev/MADF"}
+Best Strategy: imperative (619ms)
+
+All Results:
+  ✅ imperative              619ms
+  ✅ naturalExplicit         665ms
+  ✅ stepByStep             1635ms
+  ✅ directWithSchema        682ms
+  ✅ explicitTypes           635ms
+
+----------------------------------------------------------------------
+
+Tool: search
+Params: {"query":"test query"}
+Best Strategy: imperative (601ms)
+
+All Results:
+  ✅ imperative              601ms
+  ✅ naturalExplicit         657ms
+  ✅ stepByStep              804ms
+  ✅ directWithSchema        628ms
+  ✅ explicitTypes           609ms
+
+----------------------------------------------------------------------
+
+Tool: patch_content
+Params: {"path":"D:/dev/MADF","content":"test"}
+Best Strategy: explicitTypes (951ms)
+
+All Results:
+  ✅ imperative             1103ms
+  ✅ naturalExplicit         970ms
+  ✅ stepByStep             1092ms
+  ✅ directWithSchema        990ms
+  ✅ explicitTypes           951ms
+
+----------------------------------------------------------------------
+
+Tool: append_content
+Params: {"path":"D:/dev/MADF","content":"test"}
+Best Strategy: explicitTypes (850ms)
+
+All Results:
+  ✅ imperative              889ms
+  ✅ naturalExplicit         925ms
+  ✅ stepByStep             1323ms
+  ✅ directWithSchema        883ms
+  ✅ explicitTypes           850ms
+
+----------------------------------------------------------------------
+
+Tool: delete_file
+Params: {"path":"D:/dev/MADF"}
+Best Strategy: imperative (615ms)
+
+All Results:
+  ✅ imperative              615ms
+  ✅ naturalExplicit         815ms
+  ✅ stepByStep              851ms
+  ✅ directWithSchema        678ms
+  ✅ explicitTypes           783ms
+
+----------------------------------------------------------------------
+

@@ -1,0 +1,160 @@
+MCP Server Calibration Report: filesystem
+Generated: 2025-09-30T13:32:36.392Z
+======================================================================
+
+Tool: list_directory
+Params: {"path":"D:/dev/MADF"}
+Best Strategy: directWithSchema (651ms)
+
+All Results:
+  ✅ imperative             1194ms
+  ✅ naturalExplicit         763ms
+  ✅ stepByStep              728ms
+  ✅ directWithSchema        651ms
+  ✅ explicitTypes           870ms
+
+----------------------------------------------------------------------
+
+Tool: read_text_file
+Params: {"path":"D:/dev/MADF"}
+Best Strategy: explicitTypes (631ms)
+
+All Results:
+  ✅ imperative              682ms
+  ✅ naturalExplicit        1422ms
+  ✅ stepByStep              785ms
+  ✅ directWithSchema       1290ms
+  ✅ explicitTypes           631ms
+
+----------------------------------------------------------------------
+
+Tool: read_media_file
+Params: {"path":"D:/dev/MADF"}
+Best Strategy: stepByStep (635ms)
+
+All Results:
+  ✅ imperative              729ms
+  ✅ naturalExplicit         714ms
+  ✅ stepByStep              635ms
+  ✅ directWithSchema        673ms
+  ✅ explicitTypes           864ms
+
+----------------------------------------------------------------------
+
+Tool: read_multiple_files
+Params: {"paths":["https://example.com"]}
+Best Strategy: explicitTypes (683ms)
+
+All Results:
+  ✅ imperative             1215ms
+  ✅ naturalExplicit         699ms
+  ✅ stepByStep              712ms
+  ✅ directWithSchema       1372ms
+  ✅ explicitTypes           683ms
+
+----------------------------------------------------------------------
+
+Tool: write_file
+Params: {"path":"D:/dev/MADF","content":"test"}
+Best Strategy: imperative (856ms)
+
+All Results:
+  ✅ imperative              856ms
+  ✅ naturalExplicit        1500ms
+  ✅ stepByStep             1283ms
+  ✅ directWithSchema        897ms
+  ✅ explicitTypes           866ms
+
+----------------------------------------------------------------------
+
+Tool: edit_file
+Params: {"path":"D:/dev/MADF","edits":[]}
+Best Strategy: explicitTypes (810ms)
+
+All Results:
+  ✅ imperative             1399ms
+  ✅ naturalExplicit        1643ms
+  ✅ stepByStep              850ms
+  ✅ directWithSchema       1539ms
+  ✅ explicitTypes           810ms
+
+----------------------------------------------------------------------
+
+Tool: create_directory
+Params: {"path":"D:/dev/MADF"}
+Best Strategy: explicitTypes (626ms)
+
+All Results:
+  ✅ imperative              757ms
+  ✅ naturalExplicit         706ms
+  ✅ stepByStep             1034ms
+  ✅ directWithSchema        673ms
+  ✅ explicitTypes           626ms
+
+----------------------------------------------------------------------
+
+Tool: list_directory_with_sizes
+Params: {"path":"D:/dev/MADF"}
+Best Strategy: explicitTypes (827ms)
+
+All Results:
+  ✅ imperative              841ms
+  ✅ naturalExplicit         839ms
+  ✅ stepByStep             1390ms
+  ✅ directWithSchema        847ms
+  ✅ explicitTypes           827ms
+
+----------------------------------------------------------------------
+
+Tool: directory_tree
+Params: {"path":"D:/dev/MADF"}
+Best Strategy: naturalExplicit (617ms)
+
+All Results:
+  ✅ imperative              694ms
+  ✅ naturalExplicit         617ms
+  ✅ stepByStep              803ms
+  ✅ directWithSchema        994ms
+  ✅ explicitTypes           683ms
+
+----------------------------------------------------------------------
+
+Tool: move_file
+Params: {"source":"test","destination":"test"}
+Best Strategy: explicitTypes (661ms)
+
+All Results:
+  ✅ imperative              865ms
+  ✅ naturalExplicit         799ms
+  ✅ stepByStep             1023ms
+  ✅ directWithSchema       1144ms
+  ✅ explicitTypes           661ms
+
+----------------------------------------------------------------------
+
+Tool: search_files
+Params: {"path":"D:/dev/MADF","pattern":"*.md"}
+Best Strategy: stepByStep (790ms)
+
+All Results:
+  ✅ imperative              834ms
+  ✅ naturalExplicit         866ms
+  ✅ stepByStep              790ms
+  ✅ directWithSchema        898ms
+  ✅ explicitTypes           791ms
+
+----------------------------------------------------------------------
+
+Tool: get_file_info
+Params: {"path":"D:/dev/MADF"}
+Best Strategy: explicitTypes (766ms)
+
+All Results:
+  ✅ imperative              793ms
+  ✅ naturalExplicit         841ms
+  ✅ stepByStep              837ms
+  ✅ directWithSchema        779ms
+  ✅ explicitTypes           766ms
+
+----------------------------------------------------------------------
+

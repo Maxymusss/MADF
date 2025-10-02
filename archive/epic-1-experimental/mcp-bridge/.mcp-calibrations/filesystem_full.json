@@ -1,0 +1,538 @@
+{
+  "serverName": "filesystem",
+  "timestamp": "2025-09-30T13:32:36.392Z",
+  "toolCount": 13,
+  "calibrationResults": [
+    {
+      "toolName": "list_directory",
+      "serverName": "filesystem",
+      "params": {
+        "path": "D:/dev/MADF"
+      },
+      "bestStrategy": "directWithSchema",
+      "bestDuration": 651,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 1194,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 763,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 728,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 651,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 870,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "read_text_file",
+      "serverName": "filesystem",
+      "params": {
+        "path": "D:/dev/MADF"
+      },
+      "bestStrategy": "explicitTypes",
+      "bestDuration": 631,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 682,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 1422,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 785,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 1290,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 631,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "read_media_file",
+      "serverName": "filesystem",
+      "params": {
+        "path": "D:/dev/MADF"
+      },
+      "bestStrategy": "stepByStep",
+      "bestDuration": 635,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 729,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 714,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 635,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 673,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 864,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "read_multiple_files",
+      "serverName": "filesystem",
+      "params": {
+        "paths": [
+          "https://example.com"
+        ]
+      },
+      "bestStrategy": "explicitTypes",
+      "bestDuration": 683,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 1215,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 699,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 712,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 1372,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 683,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "write_file",
+      "serverName": "filesystem",
+      "params": {
+        "path": "D:/dev/MADF",
+        "content": "test"
+      },
+      "bestStrategy": "imperative",
+      "bestDuration": 856,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 856,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 1500,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 1283,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 897,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 866,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "edit_file",
+      "serverName": "filesystem",
+      "params": {
+        "path": "D:/dev/MADF",
+        "edits": []
+      },
+      "bestStrategy": "explicitTypes",
+      "bestDuration": 810,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 1399,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 1643,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 850,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 1539,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 810,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "create_directory",
+      "serverName": "filesystem",
+      "params": {
+        "path": "D:/dev/MADF"
+      },
+      "bestStrategy": "explicitTypes",
+      "bestDuration": 626,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 757,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 706,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 1034,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 673,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 626,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "list_directory_with_sizes",
+      "serverName": "filesystem",
+      "params": {
+        "path": "D:/dev/MADF"
+      },
+      "bestStrategy": "explicitTypes",
+      "bestDuration": 827,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 841,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 839,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 1390,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 847,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 827,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "directory_tree",
+      "serverName": "filesystem",
+      "params": {
+        "path": "D:/dev/MADF"
+      },
+      "bestStrategy": "naturalExplicit",
+      "bestDuration": 617,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 694,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 617,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 803,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 994,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 683,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "move_file",
+      "serverName": "filesystem",
+      "params": {
+        "source": "test",
+        "destination": "test"
+      },
+      "bestStrategy": "explicitTypes",
+      "bestDuration": 661,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 865,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 799,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 1023,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 1144,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 661,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "search_files",
+      "serverName": "filesystem",
+      "params": {
+        "path": "D:/dev/MADF",
+        "pattern": "*.md"
+      },
+      "bestStrategy": "stepByStep",
+      "bestDuration": 790,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 834,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 866,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 790,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 898,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 791,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "get_file_info",
+      "serverName": "filesystem",
+      "params": {
+        "path": "D:/dev/MADF"
+      },
+      "bestStrategy": "explicitTypes",
+      "bestDuration": 766,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 793,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 841,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 837,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 779,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 766,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    }
+  ],
+  "mapping": {
+    "list_directory": "directWithSchema",
+    "read_text_file": "explicitTypes",
+    "read_media_file": "stepByStep",
+    "read_multiple_files": "explicitTypes",
+    "write_file": "imperative",
+    "edit_file": "explicitTypes",
+    "create_directory": "explicitTypes",
+    "list_directory_with_sizes": "explicitTypes",
+    "directory_tree": "naturalExplicit",
+    "move_file": "explicitTypes",
+    "search_files": "stepByStep",
+    "get_file_info": "explicitTypes"
+  },
+  "strategyStats": {
+    "directWithSchema": 1,
+    "explicitTypes": 7,
+    "stepByStep": 2,
+    "imperative": 1,
+    "naturalExplicit": 1
+  }
+}

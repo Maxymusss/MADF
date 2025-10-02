@@ -1,0 +1,99 @@
+{
+  "serverName": "context7",
+  "timestamp": "2025-09-30T13:39:06.419Z",
+  "toolCount": 2,
+  "calibrationResults": [
+    {
+      "toolName": "resolve-library-id",
+      "serverName": "context7",
+      "params": {
+        "libraryName": "React"
+      },
+      "bestStrategy": "imperative",
+      "bestDuration": 1723,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 1723,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 2012,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 2200,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 4796,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 1895,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "get-library-docs",
+      "serverName": "context7",
+      "params": {
+        "context7CompatibleLibraryID": "React"
+      },
+      "bestStrategy": "naturalExplicit",
+      "bestDuration": 303,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 2254,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 303,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 319533,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 2112,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 1033,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    }
+  ],
+  "mapping": {
+    "resolve-library-id": "imperative",
+    "get-library-docs": "naturalExplicit"
+  },
+  "strategyStats": {
+    "imperative": 1,
+    "naturalExplicit": 1
+  }
+}

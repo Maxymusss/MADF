@@ -1,0 +1,30 @@
+{
+  "comparison": "github_repo_access",
+  "tools": {
+    "pygithub": {
+      "tool": "pygithub",
+      "category": "library",
+      "total_runs": 5,
+      "success_rate": 1.0,
+      "latency_p50": 688.3651000098325,
+      "latency_p90": 720.175599999493,
+      "latency_p99": 720.175599999493,
+      "latency_mean": 677.2677400003886,
+      "latency_min": 623.156099987682,
+      "latency_max": 720.175599999493
+    },
+    "gh_cli": {
+      "tool": "gh_cli",
+      "category": "cli",
+      "total_runs": 5,
+      "success_rate": 1.0,
+      "latency_p50": 504.9771000049077,
+      "latency_p90": 543.7068999890471,
+      "latency_p99": 543.7068999890471,
+      "latency_mean": 506.3427999994019,
+      "latency_min": 467.4024999985704,
+      "latency_max": 543.7068999890471
+    }
+  },
+  "winner": "gh_cli"
+}

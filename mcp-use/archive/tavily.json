@@ -1,0 +1,93 @@
+{
+  "serverName": "tavily",
+  "timestamp": "2025-09-30T13:27:14.737Z",
+  "toolCount": 2,
+  "calibrationResults": [
+    {
+      "toolName": "tavily-search",
+      "serverName": "tavily",
+      "bestStrategy": "directWithSchema",
+      "bestDuration": 726,
+      "successRate": "100",
+      "results": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 2486,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 870,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 875,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 726,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 3406,
+          "error": null
+        }
+      ]
+    },
+    {
+      "toolName": "tavily-extract",
+      "serverName": "tavily",
+      "bestStrategy": "stepByStep",
+      "bestDuration": 907,
+      "successRate": "100",
+      "results": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 1040,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 955,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 907,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 946,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 1044,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "mapping": {
+    "tavily-search": "directWithSchema",
+    "tavily-extract": "stepByStep"
+  },
+  "strategyStats": {
+    "directWithSchema": 1,
+    "stepByStep": 1
+  }
+}

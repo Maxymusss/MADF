@@ -1,0 +1,19 @@
+{
+  "description": "Minimal MCP configuration - only verified working servers",
+  "llm": {
+    "provider": "ollama",
+    "model": "qwen2.5-mcp",
+    "baseUrl": "http://localhost:11434"
+  },
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "D:/dev/MADF"],
+      "env": {"ALLOWED_DIRECTORIES": "D:/dev/MADF"}
+    },
+    "tavily": {
+      "command": "npx",
+      "args": ["-y", "tavily-mcp"]
+    }
+  }
+}

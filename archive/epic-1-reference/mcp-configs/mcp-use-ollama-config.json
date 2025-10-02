@@ -1,0 +1,47 @@
+{
+  "description": "Unified MCP configuration - dynamically loads all servers except serena/graphiti",
+  "llm": {
+    "provider": "ollama",
+    "model": "llama3.1:8b",
+    "baseUrl": "http://localhost:11434"
+  },
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "D:/dev/MADF"],
+      "env": {"ALLOWED_DIRECTORIES": "D:/dev/MADF"}
+    },
+    "tavily": {
+      "command": "npx",
+      "args": ["-y", "tavily-mcp"]
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"],
+      "env": {"OPENAI_API_KEY": "${OPENAI_API_KEY}"}
+    },
+    "obsidian": {
+      "command": "uvx",
+      "args": ["mcp-obsidian"],
+      "env": {
+        "OBSIDIAN_API_KEY": "${OBSIDIAN_API_KEY}",
+        "OBSIDIAN_HOST": "${OBSIDIAN_HOST}",
+        "OBSIDIAN_PORT": "${OBSIDIAN_PORT}"
+      }
+    },
+    "postgres": {
+      "command": "uv",
+      "args": ["run", "postgres-mcp", "--mode", "restricted"],
+      "env": {
+        "POSTGRES_CONNECTION_STRING": "${POSTGRES_CONNECTION_STRING}"
+      }
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+      }
+    }
+  }
+}

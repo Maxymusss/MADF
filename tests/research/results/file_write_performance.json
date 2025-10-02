@@ -1,0 +1,18 @@
+{
+  "comparison": "file_write_performance",
+  "tools": {
+    "python_builtin": {
+      "tool": "python_builtin",
+      "category": "baseline",
+      "total_runs": 10,
+      "success_rate": 1.0,
+      "latency_p50": 0.22899999748915434,
+      "latency_p90": 0.3578000032575801,
+      "latency_p99": 0.3578000032575801,
+      "latency_mean": 0.24893000081647187,
+      "latency_min": 0.19490001432131976,
+      "latency_max": 0.3578000032575801
+    }
+  },
+  "winner": "python_builtin"
+}

@@ -1,0 +1,274 @@
+{
+  "serverName": "obsidian",
+  "timestamp": "2025-09-30T14:52:37.375Z",
+  "toolCount": 7,
+  "calibrationResults": [
+    {
+      "toolName": "list_files_in_dir",
+      "serverName": "obsidian",
+      "params": {
+        "path": "D:/dev/MADF"
+      },
+      "bestStrategy": "naturalExplicit",
+      "bestDuration": 715,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 726,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 715,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 779,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 753,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 847,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "get_file_contents",
+      "serverName": "obsidian",
+      "params": {
+        "path": "D:/dev/MADF"
+      },
+      "bestStrategy": "imperative",
+      "bestDuration": 619,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 619,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 665,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 1635,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 682,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 635,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "search",
+      "serverName": "obsidian",
+      "params": {
+        "query": "test query"
+      },
+      "bestStrategy": "imperative",
+      "bestDuration": 601,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 601,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 657,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 804,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 628,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 609,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "patch_content",
+      "serverName": "obsidian",
+      "params": {
+        "path": "D:/dev/MADF",
+        "content": "test"
+      },
+      "bestStrategy": "explicitTypes",
+      "bestDuration": 951,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 1103,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 970,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 1092,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 990,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 951,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "append_content",
+      "serverName": "obsidian",
+      "params": {
+        "path": "D:/dev/MADF",
+        "content": "test"
+      },
+      "bestStrategy": "explicitTypes",
+      "bestDuration": 850,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 889,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 925,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 1323,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 883,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 850,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "delete_file",
+      "serverName": "obsidian",
+      "params": {
+        "path": "D:/dev/MADF"
+      },
+      "bestStrategy": "imperative",
+      "bestDuration": 615,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 615,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 815,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 851,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 678,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 783,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    }
+  ],
+  "mapping": {
+    "list_files_in_dir": "naturalExplicit",
+    "get_file_contents": "imperative",
+    "search": "imperative",
+    "patch_content": "explicitTypes",
+    "append_content": "explicitTypes",
+    "delete_file": "imperative"
+  },
+  "strategyStats": {
+    "naturalExplicit": 1,
+    "imperative": 3,
+    "explicitTypes": 2
+  }
+}

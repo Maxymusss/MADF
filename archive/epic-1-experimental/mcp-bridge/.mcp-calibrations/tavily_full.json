@@ -1,0 +1,188 @@
+{
+  "serverName": "tavily",
+  "timestamp": "2025-09-30T13:33:13.326Z",
+  "toolCount": 4,
+  "calibrationResults": [
+    {
+      "toolName": "tavily-search",
+      "serverName": "tavily",
+      "params": {
+        "query": "test query"
+      },
+      "bestStrategy": "directWithSchema",
+      "bestDuration": 714,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 838,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 779,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 837,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 714,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 781,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "tavily-extract",
+      "serverName": "tavily",
+      "params": {
+        "urls": [
+          "https://example.com"
+        ]
+      },
+      "bestStrategy": "imperative",
+      "bestDuration": 838,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 838,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 936,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 901,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 1151,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 922,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "tavily-crawl",
+      "serverName": "tavily",
+      "params": {
+        "base_url": "https://example.com"
+      },
+      "bestStrategy": "naturalExplicit",
+      "bestDuration": 780,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 950,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 780,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 1361,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 1427,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 1458,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    },
+    {
+      "toolName": "tavily-map",
+      "serverName": "tavily",
+      "params": {
+        "url": "https://example.com"
+      },
+      "bestStrategy": "naturalExplicit",
+      "bestDuration": 735,
+      "allResults": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 737,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 735,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 743,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 945,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 1289,
+          "error": null
+        }
+      ],
+      "allFailed": false
+    }
+  ],
+  "mapping": {
+    "tavily-search": "directWithSchema",
+    "tavily-extract": "imperative",
+    "tavily-crawl": "naturalExplicit",
+    "tavily-map": "naturalExplicit"
+  },
+  "strategyStats": {
+    "directWithSchema": 1,
+    "imperative": 1,
+    "naturalExplicit": 2
+  }
+}

@@ -1,0 +1,56 @@
+MCP Server Calibration Report: tavily
+Generated: 2025-09-30T13:33:13.326Z
+======================================================================
+
+Tool: tavily-search
+Params: {"query":"test query"}
+Best Strategy: directWithSchema (714ms)
+
+All Results:
+  ✅ imperative              838ms
+  ✅ naturalExplicit         779ms
+  ✅ stepByStep              837ms
+  ✅ directWithSchema        714ms
+  ✅ explicitTypes           781ms
+
+----------------------------------------------------------------------
+
+Tool: tavily-extract
+Params: {"urls":["https://example.com"]}
+Best Strategy: imperative (838ms)
+
+All Results:
+  ✅ imperative              838ms
+  ✅ naturalExplicit         936ms
+  ✅ stepByStep              901ms
+  ✅ directWithSchema       1151ms
+  ✅ explicitTypes           922ms
+
+----------------------------------------------------------------------
+
+Tool: tavily-crawl
+Params: {"base_url":"https://example.com"}
+Best Strategy: naturalExplicit (780ms)
+
+All Results:
+  ✅ imperative              950ms
+  ✅ naturalExplicit         780ms
+  ✅ stepByStep             1361ms
+  ✅ directWithSchema       1427ms
+  ✅ explicitTypes          1458ms
+
+----------------------------------------------------------------------
+
+Tool: tavily-map
+Params: {"url":"https://example.com"}
+Best Strategy: naturalExplicit (735ms)
+
+All Results:
+  ✅ imperative              737ms
+  ✅ naturalExplicit         735ms
+  ✅ stepByStep              743ms
+  ✅ directWithSchema        945ms
+  ✅ explicitTypes          1289ms
+
+----------------------------------------------------------------------
+

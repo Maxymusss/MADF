@@ -1,0 +1,239 @@
+{
+  "langgraph": {
+    "etag": "\"68dc7197-10fca\"",
+    "hash": "b40abfa171b3e8ded87ddc43dd7aeb00",
+    "lastChecked": 1759280570571,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "langchain": {
+    "etag": "\"c88237ffad7d5119698b69ed84ac42ba\"",
+    "hash": "a624eb1465e4ef908a18f6c9f868a7db",
+    "lastChecked": 1759280570946,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "claude-code": {
+    "etag": null,
+    "hash": "47842a91677d6d27883b240f1bdee4d1",
+    "lastChecked": 1759280571176,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "claude-code-mcp": {
+    "etag": null,
+    "hash": "0d529c07a6d8f341b4c27a93da3d4dae",
+    "lastChecked": 1759280571416,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "mcp-filesystem": {
+    "etag": "\"f4d413d212124c46f79cec3fcd8dab650942e3daf0ce0217eafb03fcc884c692\"",
+    "hash": "2a1944f8b4f367f5c11f26d42104a887",
+    "lastChecked": 1758347913478,
+    "lastCheckedDate": "Sat Sep 20 2025"
+  },
+  "mcp-github": {
+    "etag": "\"27908f5d8e7fd71cd1ffb4556e9492b43bc8a58a0c2e7638cd35f8aa1afe507d\"",
+    "hash": "045fe2fba46e90bbe7bba360824a8aab",
+    "lastChecked": 1758348157612,
+    "lastCheckedDate": "Sat Sep 20 2025"
+  },
+  "mcp-playwright": {
+    "etag": "\"1e9ecdb70e3b3104d9c0f7b0a4f555b6b0abc972ca8538c44e0b2d4e89c3460f\"",
+    "hash": "24db3878e237cb6cfe4504d7111569e7",
+    "lastChecked": 1758348157893,
+    "lastCheckedDate": "Sat Sep 20 2025"
+  },
+  "mcp-postgres": {
+    "etag": "\"48e2c82cbe8c2caed9f6ede89c81eaf5a5f3a7613d183214c0dca3db45da3161\"",
+    "hash": "c782b73342aecb164024c0e3b23b4ff4",
+    "lastChecked": 1758348158163,
+    "lastCheckedDate": "Sat Sep 20 2025"
+  },
+  "mcp-sentry": {
+    "etag": "\"e1cd7bf48219df6e555801cec497b5b1288aca5283f6ceae81abaf26b2d24b15\"",
+    "hash": "b85721a44b2301ffe14dce2477ac8ddf",
+    "lastChecked": 1758348158988,
+    "lastCheckedDate": "Sat Sep 20 2025"
+  },
+  "mcp-obsidian": {
+    "etag": "\"a6096769c4daeb3fdc8e4b2b6413276e59a93b6a6495f610435266c2a95f988e\"",
+    "hash": "c62dc05a530856d7ee1463929a4094a3",
+    "lastChecked": 1758348555861,
+    "lastCheckedDate": "Sat Sep 20 2025"
+  },
+  "mcp-outlook": {
+    "etag": "\"7e35e1b9a7aa316562691133b397f814c821938470de7cbd4e5c74978d2004eb\"",
+    "hash": "bc5df2d6d9b3ae4387c084c244628663",
+    "lastChecked": 1758348803009,
+    "lastCheckedDate": "Sat Sep 20 2025"
+  },
+  "mcp-context7": {
+    "etag": "\"07aa3f97cf124960219ecb73a4befffbe3d7e03b6759d69807abda86128eef7b\"",
+    "hash": "aa84a262228f8972c1433f6de73cba33",
+    "lastChecked": 1758349664997,
+    "lastCheckedDate": "Sat Sep 20 2025"
+  },
+  "mcp-use": {
+    "etag": "\"98a15164fcf56d8f68aae486b146ffb87c581764f6f742a5d2f9871e1de376d3\"",
+    "hash": "002d0a2514d3d680008320646e96b76a",
+    "lastChecked": 1759280571718,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bloomberg-blpapi": {
+    "etag": null,
+    "hash": "manual_compilation",
+    "lastChecked": 1726919202000,
+    "lastCheckedDate": "Sat Sep 21 2025",
+    "source": "Official Bloomberg documentation and community resources"
+  },
+  "xbbg": {
+    "etag": null,
+    "hash": "manual_compilation",
+    "lastChecked": 1726919202000,
+    "lastCheckedDate": "Sat Sep 21 2025",
+    "source": "GitHub repository alpha-xone/xbbg and PyPI"
+  },
+  "bmad-readme": {
+    "etag": "\"4a9f70f5fffb29eb92d94f1c74acf9f00ae14fdfcd2becd488195f71a08defd8\"",
+    "hash": "2d0faa3e2664495c251916363239c964",
+    "lastChecked": 1759280573625,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bmad-changelog": {
+    "etag": "\"effce0ab772fa98f4a672c0b4a6f5eddff52ec31a4d02e252f96ada4336a7ad3\"",
+    "hash": "dee6093815ff50a679d4dac9d4c82221",
+    "lastChecked": 1759280573905,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bmad-contributing": {
+    "etag": "\"e81bc87909b1d291d129b5a8af0a5f1c2ed82c231e259797e3855287c008ed24\"",
+    "hash": "bc0d8098f643f1b120a496bee7e6ee09",
+    "lastChecked": 1759280574189,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bmad-pr-opencode": {
+    "etag": "\"c4f59719e7335ee41e82adf40a6fc78ddf52a24b3767c67cfbee542ea07d6372\"",
+    "hash": "8a8cf553f4e3515a66b49c6b37c48b6f",
+    "lastChecked": 1759280574474,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bmad-guiding-principles": {
+    "etag": "\"e6119e1fc9925af00954cb5a2e91d7e275c84a6e5eece2e29e34ae2d9b61b1e0\"",
+    "hash": "993da657508af6f25311cf9f83ea4770",
+    "lastChecked": 1759280574754,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bmad-core-architecture": {
+    "etag": "\"1cff0a30b625ba2eb650889a1445711bd70a533aa400f7685805cd76dfc918e2\"",
+    "hash": "af9eca4b339a179fee25648dc5c6c8c9",
+    "lastChecked": 1759280575036,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bmad-ide-workflow": {
+    "etag": "\"6f6424e051c3473d88c3f5c5a9f0ee61c9f6251a73bdd05bb8ff37fda9153dc8\"",
+    "hash": "f62e36ed244e5f5af7d38b1d72d03573",
+    "lastChecked": 1759280575325,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bmad-expansion-packs": {
+    "etag": "\"43eaa0e0b9e589e867060e26fef4a4cdb2cb51991a1999381effb8a266e6e414\"",
+    "hash": "c80beede4e0d8cab7e091b1ee4c817be",
+    "lastChecked": 1759280575606,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bmad-flattener": {
+    "etag": "\"87c2073fe0829242153ca9a40d66665211e76a4405bc368863665f2e3166d337\"",
+    "hash": "87934a5d79d26f917ddde277159ef29a",
+    "lastChecked": 1759280575883,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bmad-pull-requests": {
+    "etag": "\"aa6d4b80d6e17edcf44f8e476f92e9fdec8dd75ff13f6944ff493d2deedd837a\"",
+    "hash": "97531b29d56dbc7cb0c3752b207fbe3d",
+    "lastChecked": 1759280576160,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bmad-user-guide": {
+    "etag": "\"18ae17e0b5049abc16598ae0fd3de9c75f21542799d816af58af0b199b6aa3bf\"",
+    "hash": "92f3e519f714313081b8ce9eec67727d",
+    "lastChecked": 1759280576439,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bmad-versioning": {
+    "etag": "\"4c388e7f137d8056cab8b3bf87d270c80f4271670289c572071cea6b47023b52\"",
+    "hash": "ce021a1c0aea23093c1e500673bdbf80",
+    "lastChecked": 1759280576712,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bmad-versions": {
+    "etag": "\"07262d37f21947fe45dba1a61419dd698171d5f894d920e55c471756a23a0bbb\"",
+    "hash": "a1cbcf8cde436726c7b9330e07865073",
+    "lastChecked": 1759280576987,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "bmad-brownfield": {
+    "etag": "\"a0cc1b6f3b22e1f7586dcace9da29eab5e6155e8907f523444cda903808da368\"",
+    "hash": "f2ef54c6e848fa6ec2cc69510cec07d5",
+    "lastChecked": 1759280577274,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "tmux-orchestrator": {
+    "etag": "\"85a508485ac049a99f95aca47c77bd07ee749fa92c9b55bb0fb5fcf436ef3365\"",
+    "hash": "80baaa955c0f2dc10cb7a549ede43bbe",
+    "lastChecked": 1759280571990,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "gpt-researcher": {
+    "etag": "\"850e585bcdc70c2b8bcf4910610cf80e7fcc0e07d45ade807e5208b6f06ca906\"",
+    "hash": "a8dcea8d82956fa80135a6e499fc3b16",
+    "lastChecked": 1759280572261,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "graphiti": {
+    "etag": "\"82e367938e2eb258fa6a69fc789bd0593d5113781814bb1aea497e0173767fa8\"",
+    "hash": "012a8ef3df235dc615e81598e9fbeff4",
+    "lastChecked": 1759280572525,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "serena": {
+    "etag": "\"1a19bdccc222fcfef4a7fc499339b0fd1b9958b01c292cec12bf65c922ca2095\"",
+    "hash": "e6cdb07ad663485f151587deb42ea605",
+    "lastChecked": 1759280572819,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "github-mcp-server": {
+    "etag": "\"f67599bb231279aaf8278bc36112a71bbbaf57843b0b86a023e3dfbf22fbca20\"",
+    "hash": "066f188365655f9e3a18fb536a2172fd",
+    "lastChecked": 1759280573100,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "git-mcp": {
+    "etag": "\"2440bd54c245f603a828e205e9f8d774d8e88343131056a730fdb6d2a75077d2\"",
+    "hash": "f4ae4d16594b285a5ee579cf9567aff7",
+    "lastChecked": 1759280573351,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "claude-code-features": {
+    "etag": null,
+    "hash": "10d6c57ffd2bc62a15372d3fe0308169",
+    "lastChecked": 1759280571329,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "claude-api": {
+    "etag": null,
+    "hash": "17005351537d731450cf8a427508865d",
+    "lastChecked": 1759281323889,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "claude-code-getting-started": {
+    "etag": null,
+    "hash": "1c1b4b9857409480387e04dd80b0c95a",
+    "lastChecked": 1759281324024,
+    "lastCheckedDate": "Wed Oct 01 2025"
+  },
+  "graphiti-mcp": {
+    "etag": null,
+    "hash": "017fe8700218cf330fdcc91f9a5e5fb0",
+    "lastChecked": 1759305627264,
+    "lastCheckedDate": "Wed Oct 01 2025",
+    "source": "https://github.com/gifflet/graphiti-mcp-server"
+  }
+}

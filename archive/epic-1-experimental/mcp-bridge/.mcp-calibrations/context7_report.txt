@@ -1,0 +1,30 @@
+MCP Server Calibration Report: context7
+Generated: 2025-09-30T13:39:06.419Z
+======================================================================
+
+Tool: resolve-library-id
+Params: {"libraryName":"React"}
+Best Strategy: imperative (1723ms)
+
+All Results:
+  ✅ imperative             1723ms
+  ✅ naturalExplicit        2012ms
+  ✅ stepByStep             2200ms
+  ✅ directWithSchema       4796ms
+  ✅ explicitTypes          1895ms
+
+----------------------------------------------------------------------
+
+Tool: get-library-docs
+Params: {"context7CompatibleLibraryID":"React"}
+Best Strategy: naturalExplicit (303ms)
+
+All Results:
+  ✅ imperative             2254ms
+  ✅ naturalExplicit         303ms
+  ✅ stepByStep           319533ms
+  ✅ directWithSchema       2112ms
+  ✅ explicitTypes          1033ms
+
+----------------------------------------------------------------------
+

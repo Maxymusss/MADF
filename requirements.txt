@@ -1,0 +1,66 @@
+# Multi-Agent Development Framework (MADF) - Python Dependencies
+# Bloomberg API Integration for Financial Research Framework
+
+# Bloomberg API
+blpapi==3.24.0                 # Bloomberg Python API for Terminal/SAPI access
+bloomberg-core==0.1.0          # Core Bloomberg utilities (if available)
+
+# Data Processing & Analytics
+pandas>=2.0.0                  # Data manipulation and analysis
+numpy>=1.24.0                  # Numerical computing
+pendulum>=2.1.2                # Timezone-aware datetime handling
+
+# Async Framework & HTTP
+aiofiles>=23.1.0               # Async file operations
+aiohttp>=3.8.0                 # Async HTTP client
+asyncio-mqtt>=0.13.0           # Async MQTT client (if needed)
+
+# Message Validation & Models
+pydantic>=2.0.0                # Data validation using Python type annotations
+pydantic[email]>=2.0.0         # Email validation support
+
+# MCP Integration
+mcp-use>=0.1.18                # Multi-server MCP tool loading library
+langchain>=0.1.0               # LLM framework for agent interactions
+langchain-anthropic>=0.1.0     # Anthropic Claude integration
+
+# Testing Framework
+pytest>=7.4.0                 # Testing framework
+pytest-asyncio>=0.21.0        # Async testing support
+pytest-mock>=3.11.0           # Mock objects for testing
+pytest-cov>=4.1.0             # Coverage reporting
+
+# Logging & Monitoring
+structlog>=23.1.0              # Structured logging
+rich>=13.0.0                   # Rich text and beautiful formatting
+
+# Environment & Configuration
+python-dotenv>=1.0.0           # Environment variable management
+PyYAML>=6.0                    # YAML configuration parsing
+
+# Financial Data Processing
+pytz>=2023.3                   # Timezone definitions
+python-dateutil>=2.8.2        # Date/time parsing utilities
+
+# Error Handling & Resilience
+tenacity>=8.2.0                # Retry library
+circuit-breaker>=1.0.0         # Circuit breaker pattern
+
+# Development Tools
+black>=23.0.0                  # Code formatter
+flake8>=6.0.0                  # Linting
+mypy>=1.5.0                    # Type checking
+
+# Optional: Jupyter Notebook Support (for data analysis)
+jupyter>=1.0.0                 # Jupyter notebook
+ipykernel>=6.25.0              # IPython kernel
+
+# Optional: Performance Monitoring
+psutil>=5.9.0                  # System and process utilities
+
+# Optional: Database Support (if needed for caching)
+sqlite3                        # Built-in SQLite support
+
+# LangGraph Multi-Agent Workflow Framework (Story 1.1)
+langgraph>=0.0.55              # State machine orchestration for multi-agent workflows
+langsmith>=0.1.0               # LangSmith tracing and monitoring (LangGraph dependency)

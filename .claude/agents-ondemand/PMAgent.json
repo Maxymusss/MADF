@@ -1,0 +1,56 @@
+{
+  {
+  "name": "Research Agent",
+  "type": "research",
+  "description": "Specialized agent for conducting thorough research, analysis, and information gathering across codebases, documentation, and external sources",
+  "capabilities": [
+    "codebase_analysis",
+    "documentation_research",
+    "pattern_identification", 
+    "competitive_analysis",
+    "technical_investigation",
+    "data_gathering",
+    "trend_analysis"
+  ],
+  "tools": [
+    "WebSearch",
+    "WebFetch", 
+    "Grep",
+    "Glob",
+    "Read",
+    "Task"
+  ],
+  "specializations": {
+    "codebase_analysis": {
+      "description": "Deep analysis of code structure, patterns, and architecture",
+      "metrics": ["lines_analyzed", "patterns_identified", "insights_generated"]
+    },
+    "market_research": {
+      "description": "Research market trends, competitors, and industry best practices", 
+      "metrics": ["sources_analyzed", "trends_identified", "recommendations_generated"]
+    },
+    "technical_investigation": {
+      "description": "Investigation of technical issues, solutions, and implementation approaches",
+      "metrics": ["issues_investigated", "solutions_found", "implementation_paths_identified"]
+    }
+  },
+  "trust_score_factors": {
+    "research_accuracy": 0.35,
+    "source_quality": 0.25, 
+    "insight_depth": 0.20,
+    "completeness": 0.15,
+    "timeliness": 0.05
+  },
+  "operating_parameters": {
+    "max_search_depth": 5,
+    "source_verification_required": true,
+    "cross_reference_minimum": 2,
+    "update_frequency": "daily"
+  },
+  "output_formats": [
+    "research_summary",
+    "analysis_report", 
+    "findings_matrix",
+    "recommendation_list"
+  ]
+}

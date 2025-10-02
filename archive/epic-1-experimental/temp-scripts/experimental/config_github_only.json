@@ -1,0 +1,13 @@
+{
+  "description": "GitHub MCP only (official stdio server)",
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "github-mcp-scoped-server"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_API_KEY}",
+        "GITHUB_TARGET_USER": "szmen"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-8.4.2, pluggy-1.6.0 -- D:\dev\MADF\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\dev\MADF
+configfile: pytest.ini
+plugins: anyio-4.10.0, langsmith-0.4.27, asyncio-1.2.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=function, asyncio_default_test_loop_scope=function
+collecting ... collected 19 items
+
+tests/test_story_1_1_real_core_architecture.py::TestRealLangGraphArchitecture::test_state_graph_creation_real PASSED [  5%]
+tests/test_story_1_1_real_core_architecture.py::TestRealLangGraphArchitecture::test_five_agent_nodes_real PASSED [ 10%]
+tests/test_story_1_1_real_core_architecture.py::TestRealLangGraphArchitecture::test_agent_edges_real PASSED [ 15%]
+tests/test_story_1_1_real_core_architecture.py::TestRealPydanticStateManagement::test_agent_state_model_real PASSED [ 21%]
+tests/test_story_1_1_real_core_architecture.py::TestRealPydanticStateManagement::test_agent_state_creation_real PASSED [ 26%]
+tests/test_story_1_1_real_core_architecture.py::TestRealPydanticStateManagement::test_agent_state_validation_real PASSED [ 31%]
+tests/test_story_1_1_real_core_architecture.py::TestRealAgentInstances::test_orchestrator_agent_real PASSED [ 36%]
+tests/test_story_1_1_real_core_architecture.py::TestRealAgentInstances::test_analyst_agent_real PASSED [ 42%]
+tests/test_story_1_1_real_core_architecture.py::TestRealAgentInstances::test_knowledge_agent_real PASSED [ 47%]
+tests/test_story_1_1_real_core_architecture.py::TestRealAgentInstances::test_developer_agent_real PASSED [ 52%]
+tests/test_story_1_1_real_core_architecture.py::TestRealAgentInstances::test_validator_agent_real FAILED [ 57%]
+tests/test_story_1_1_real_core_architecture.py::TestRealCheckpointing::test_checkpointer_configured_real PASSED [ 63%]
+tests/test_story_1_1_real_core_architecture.py::TestRealCheckpointing::test_workflow_execution_real PASSED [ 68%]
+tests/test_story_1_1_real_core_architecture.py::TestRealObservability::test_langsmith_config_real PASSED [ 73%]
+tests/test_story_1_1_real_core_architecture.py::TestRealMCPBridge::test_mcp_bridge_creation_real PASSED [ 78%]
+tests/test_story_1_1_real_core_architecture.py::TestRealMCPBridge::test_mcp_bridge_connection_real PASSED [ 84%]
+tests/test_story_1_1_real_core_architecture.py::TestRealMCPBridge::test_mcp_servers_available_real PASSED [ 89%]
+tests/test_story_1_1_real_core_architecture.py::TestRealIntegration::test_end_to_end_workflow_real PASSED [ 94%]
+tests/test_story_1_1_real_core_architecture.py::TestRealIntegration::test_agent_coordination_real PASSED [100%]
+
+================================== FAILURES ===================================
+______________ TestRealAgentInstances.test_validator_agent_real _______________
+tests\test_story_1_1_real_core_architecture.py:177: in test_validator_agent_real
+    assert agent.role == "QA and Optimization Specialist"
+E   AssertionError: assert 'Quality Assurance Specialist' == 'QA and Optimization Specialist'
+E     
+E     - QA and Optimization Specialist
+E     + Quality Assurance Specialist
+=========================== short test summary info ===========================
+FAILED tests/test_story_1_1_real_core_architecture.py::TestRealAgentInstances::test_validator_agent_real - AssertionError: assert 'Quality Assurance Specialist' == 'QA and Optimization Specialist'
+  
+  - QA and Optimization Specialist
+  + Quality Assurance Specialist
+======================== 1 failed, 18 passed in 0.31s =========================

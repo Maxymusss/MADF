@@ -1,0 +1,253 @@
+{
+  "serverName": "filesystem",
+  "timestamp": "2025-09-30T13:26:51.388Z",
+  "toolCount": 6,
+  "calibrationResults": [
+    {
+      "toolName": "list_allowed_directories",
+      "serverName": "filesystem",
+      "bestStrategy": "explicitTypes",
+      "bestDuration": 544,
+      "successRate": "100",
+      "results": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 4259,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 590,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 582,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 600,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 544,
+          "error": null
+        }
+      ]
+    },
+    {
+      "toolName": "list_directory",
+      "serverName": "filesystem",
+      "bestStrategy": "explicitTypes",
+      "bestDuration": 640,
+      "successRate": "100",
+      "results": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 682,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 830,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 747,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 887,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 640,
+          "error": null
+        }
+      ]
+    },
+    {
+      "toolName": "read_text_file",
+      "serverName": "filesystem",
+      "bestStrategy": "explicitTypes",
+      "bestDuration": 672,
+      "successRate": "100",
+      "results": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 725,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 927,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 737,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 903,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 672,
+          "error": null
+        }
+      ]
+    },
+    {
+      "toolName": "get_file_info",
+      "serverName": "filesystem",
+      "bestStrategy": "imperative",
+      "bestDuration": 731,
+      "successRate": "100",
+      "results": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 731,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 793,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 895,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 871,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 812,
+          "error": null
+        }
+      ]
+    },
+    {
+      "toolName": "directory_tree",
+      "serverName": "filesystem",
+      "bestStrategy": "imperative",
+      "bestDuration": 852,
+      "successRate": "100",
+      "results": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 852,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 962,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 1060,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 1020,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 1014,
+          "error": null
+        }
+      ]
+    },
+    {
+      "toolName": "search_files",
+      "serverName": "filesystem",
+      "bestStrategy": "explicitTypes",
+      "bestDuration": 789,
+      "successRate": "100",
+      "results": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 929,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 894,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 800,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 1400,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 789,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "mapping": {
+    "list_allowed_directories": "explicitTypes",
+    "list_directory": "explicitTypes",
+    "read_text_file": "explicitTypes",
+    "get_file_info": "imperative",
+    "directory_tree": "imperative",
+    "search_files": "explicitTypes"
+  },
+  "strategyStats": {
+    "explicitTypes": 4,
+    "imperative": 2
+  }
+}

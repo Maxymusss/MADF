@@ -1,0 +1,49 @@
+{
+  "task_id": "fx_rates_1758439381",
+  "task_type": "financial_research",
+  "created_at": "2025-09-21T15:23:01.873824",
+  "timeframe": {
+    "start_date": "2025-09-13T15:23:01.873816",
+    "end_date": "2025-09-21T15:23:01.873816",
+    "description": "Saturday 2025-09-13 to 2025-09-21"
+  },
+  "scope": {
+    "regions": [
+      "Asia",
+      "G10"
+    ],
+    "markets": [
+      "currencies",
+      "interest_rates"
+    ],
+    "focus": "qualitative_summary"
+  },
+  "requirements": {
+    "source_types": [
+      "news",
+      "central_bank_communications",
+      "market_commentary"
+    ],
+    "reliable_sources": [
+      "Reuters",
+      "Bloomberg",
+      "WSJ",
+      "Financial Times",
+      "JPM Research",
+      "Citi Research",
+      "Goldman Sachs Research",
+      "Federal Reserve",
+      "ECB",
+      "BOJ",
+      "RBA",
+      "PBOC"
+    ],
+    "output_format": "structured_summary"
+  },
+  "quality_criteria": {
+    "timing_accuracy": "Events must be within specified timeframe",
+    "source_attribution": "All claims must cite reliable sources",
+    "factual_accuracy": "Cross-reference conflicting information",
+    "completeness": "Cover major events and movements"
+  }
+}

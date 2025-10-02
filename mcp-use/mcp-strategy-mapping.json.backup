@@ -1,0 +1,126 @@
+{
+  "lastUpdated": "2025-09-30T14:52:37.375Z",
+  "tools": {
+    "list_directory": {
+      "server": "filesystem",
+      "tool": "list_directory",
+      "strategy": "directWithSchema"
+    },
+    "read_text_file": {
+      "server": "filesystem",
+      "tool": "read_text_file",
+      "strategy": "explicitTypes"
+    },
+    "read_media_file": {
+      "server": "filesystem",
+      "tool": "read_media_file",
+      "strategy": "stepByStep"
+    },
+    "read_multiple_files": {
+      "server": "filesystem",
+      "tool": "read_multiple_files",
+      "strategy": "explicitTypes"
+    },
+    "write_file": {
+      "server": "filesystem",
+      "tool": "write_file",
+      "strategy": "imperative"
+    },
+    "edit_file": {
+      "server": "filesystem",
+      "tool": "edit_file",
+      "strategy": "explicitTypes"
+    },
+    "create_directory": {
+      "server": "filesystem",
+      "tool": "create_directory",
+      "strategy": "explicitTypes"
+    },
+    "list_directory_with_sizes": {
+      "server": "filesystem",
+      "tool": "list_directory_with_sizes",
+      "strategy": "explicitTypes"
+    },
+    "directory_tree": {
+      "server": "filesystem",
+      "tool": "directory_tree",
+      "strategy": "naturalExplicit"
+    },
+    "move_file": {
+      "server": "filesystem",
+      "tool": "move_file",
+      "strategy": "explicitTypes"
+    },
+    "search_files": {
+      "server": "filesystem",
+      "tool": "search_files",
+      "strategy": "stepByStep"
+    },
+    "get_file_info": {
+      "server": "filesystem",
+      "tool": "get_file_info",
+      "strategy": "explicitTypes"
+    },
+    "tavily-search": {
+      "server": "tavily",
+      "tool": "tavily-search",
+      "strategy": "directWithSchema"
+    },
+    "tavily-extract": {
+      "server": "tavily",
+      "tool": "tavily-extract",
+      "strategy": "imperative"
+    },
+    "tavily-crawl": {
+      "server": "tavily",
+      "tool": "tavily-crawl",
+      "strategy": "naturalExplicit"
+    },
+    "tavily-map": {
+      "server": "tavily",
+      "tool": "tavily-map",
+      "strategy": "naturalExplicit"
+    },
+    "resolve-library-id": {
+      "server": "context7",
+      "tool": "resolve-library-id",
+      "strategy": "imperative"
+    },
+    "get-library-docs": {
+      "server": "context7",
+      "tool": "get-library-docs",
+      "strategy": "naturalExplicit"
+    },
+    "list_files_in_dir": {
+      "server": "obsidian",
+      "tool": "list_files_in_dir",
+      "strategy": "naturalExplicit"
+    },
+    "get_file_contents": {
+      "server": "obsidian",
+      "tool": "get_file_contents",
+      "strategy": "imperative"
+    },
+    "search": {
+      "server": "obsidian",
+      "tool": "search",
+      "strategy": "imperative"
+    },
+    "patch_content": {
+      "server": "obsidian",
+      "tool": "patch_content",
+      "strategy": "explicitTypes"
+    },
+    "append_content": {
+      "server": "obsidian",
+      "tool": "append_content",
+      "strategy": "explicitTypes"
+    },
+    "delete_file": {
+      "server": "obsidian",
+      "tool": "delete_file",
+      "strategy": "imperative"
+    }
+  },
+  "default": "imperative"
+}

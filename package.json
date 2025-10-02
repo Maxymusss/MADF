@@ -1,0 +1,41 @@
+{
+  "name": "multiagent-dev-framework",
+  "version": "1.0.0",
+  "description": "Multi-Agent Development Framework with MCP proxy support",
+  "type": "module",
+  "scripts": {
+    "test": "dotenv -- echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Auto-startup disabled. Use 'npm run startup' to manually start.\"",
+    "startup": "node .claude/scripts/startup.js start",
+    "health-check": "node .claude/scripts/startup.js check",
+    "load-tools": "node .claude/scripts/load-essential-tools.js quick",
+    "tool-stats": "node .claude/scripts/tool-stats.js report",
+    "update-tools": "node .claude/scripts/update-essential-tools.js update",
+    "analyze-tools": "node .claude/scripts/analyze-tools.js",
+    "mcp-proxy": "dotenv -- node .claude/mcp-proxy/proxy-server.js",
+    "fs-proxy": "cd .claude/mcp-proxies && dotenv -- node fs-proxy.js",
+    "coordinator": "cd .claude/mcp-proxies && dotenv -- node coordinator.js"
+  },
+  "keywords": [
+    "mcp",
+    "multi-agent",
+    "development"
+  ],
+  "author": "max",
+  "license": "ISC",
+  "dependencies": {
+    "@gongrzhe/server-gmail-autoauth-mcp": "^1.1.11",
+    "@langchain/core": "^0.3.78",
+    "@langchain/ollama": "^0.2.4",
+    "@modelcontextprotocol/sdk": "^1.18.1",
+    "@playwright/mcp": "^0.0.39",
+    "alphavantage": "^2.5.0",
+    "dotenv": "^17.2.2",
+    "iex-cloud": "^2.2.0",
+    "mcp-use": "^0.1.18",
+    "newsapi": "^2.4.1"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^10.0.0"
+  }
+}

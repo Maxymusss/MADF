@@ -1,0 +1,93 @@
+{
+  "serverName": "context7",
+  "timestamp": "2025-09-30T13:27:51.258Z",
+  "toolCount": 2,
+  "calibrationResults": [
+    {
+      "toolName": "resolve-library-id",
+      "serverName": "context7",
+      "bestStrategy": "naturalExplicit",
+      "bestDuration": 2004,
+      "successRate": "100",
+      "results": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 3851,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 2004,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 2166,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 4823,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 2191,
+          "error": null
+        }
+      ]
+    },
+    {
+      "toolName": "get-library-docs",
+      "serverName": "context7",
+      "bestStrategy": "stepByStep",
+      "bestDuration": 295,
+      "successRate": "100",
+      "results": [
+        {
+          "strategy": "imperative",
+          "success": true,
+          "duration": 1945,
+          "error": null
+        },
+        {
+          "strategy": "naturalExplicit",
+          "success": true,
+          "duration": 354,
+          "error": null
+        },
+        {
+          "strategy": "stepByStep",
+          "success": true,
+          "duration": 295,
+          "error": null
+        },
+        {
+          "strategy": "directWithSchema",
+          "success": true,
+          "duration": 6667,
+          "error": null
+        },
+        {
+          "strategy": "explicitTypes",
+          "success": true,
+          "duration": 2114,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "mapping": {
+    "resolve-library-id": "naturalExplicit",
+    "get-library-docs": "stepByStep"
+  },
+  "strategyStats": {
+    "naturalExplicit": 1,
+    "stepByStep": 1
+  }
+}
